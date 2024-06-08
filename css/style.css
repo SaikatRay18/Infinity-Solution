@@ -402,10 +402,8 @@ h6,
 .team-item .team-text {
     position: absolute;
     width: calc(100% - 45px);
-    left: -100%;
     bottom: 45px;
     padding: 1.5rem;
-    background: #FFFFFF;
     border-radius: 0 4px 4px 0;
     opacity: 0;
     transition: .5s;
@@ -522,6 +520,30 @@ h6,
     #topbar .container div span{
         display: none;
     }
+}
+@media(max-width:991.98px){
+    .container-xxl .container div .sizz{
+        font-size: 33px;
+    }
+}
+@media(max-width:991.98px){
+    .container-xxl .container .siz{
+        font-size: 29px;
+    }
+}
+@media(max-width:991.98px){
+    .container-xxl .container .si{
+        font-size: 23px;
+    }
+}
+.si{
+    font-size: 50px;
+}
+.siz{
+    font-size: 50px;
+}
+.sizz{
+    font-size: 50px;
 }
 
 button {
