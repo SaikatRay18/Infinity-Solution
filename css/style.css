@@ -311,6 +311,9 @@ h6,
 .service-item:hover .service-text .btn {
     width: 112px;
 }
+.procolor{
+    color: gold;
+}
 
 
 /*** Project Portfolio ***/
